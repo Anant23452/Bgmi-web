@@ -1,0 +1,183 @@
+@charset "utf-8";
+
+/* Variables */
+:root {
+	--visual-main-color: #530C0A;
+}
+
+.visual_main {width:100%; position: relative; background-size:cover; overflow: hidden; font-size:0;}
+.visual_main .visual_wrap {
+	position: absolute;
+	top: 76px;
+	left: 0;
+	min-width: 50%;
+	height: calc(100% - 76px);
+	padding-left: 80px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+}
+.visual_main .visual {
+	margin-bottom: 30px;
+	font-size: 160px;
+	font-weight: 700;
+	line-height: 0.9em;
+	text-align: left;
+	color: var(--visual-main-color);
+}
+.visual_main .visual img {height: 100%;}
+.visual_main .visual_btn {}
+.visual_main .visual_btn p:first-child + p {margin-top: 20px;}
+.visual_main .visual_btn a.btn1{
+	display:inline-block;
+	vertical-align: middle;box-sizing: border-box;text-align: center;width:202px; height: 60px;line-height: 60px;padding:0;/*box-shadow:0 5px 30px rgba(0,0,0,0.5)*/;
+}
+.visual_main .visual_btn a.btn1.btn1__aos {
+	margin-left: 8px;
+	background: url('../img/btn/btn_googleplay_202.png') no-repeat 50% center / 100% 100%;
+}
+.visual_main .visual_btn a.btn1.btn1__ios {
+	background: url('../img/btn/btn_appstore_202.png') no-repeat 50% center / 100% 100%;
+}
+.visual_main .visual_btn a.btn1 span.txt {text-indent: -9999px;}
+.visual_main .visual_btn a.btn2 {
+	display:inline-block;vertical-align: middle;box-sizing: border-box;text-align: center;width: 412px;height: 48px;line-height: 46px;padding:0;border: 2px solid var(--visual-main-color); border-radius: 6px;}
+.visual_main .visual_btn a.btn2 span.txt {color:#fff;font-size: 20px;display: inline-block;vertical-align: middle;position: relative;top: 2px;}
+.visual_main .visual_btn a.btn2.btn2__shop {
+	background-color: var(--visual-main-color);
+	margin-bottom: 10px;
+}
+.visual_main .visual_btn .btn3__apk {
+	display: inline-block;
+	vertical-align: middle;
+	box-sizing: border-box;
+	text-align: center;
+	width: 412px;
+	height: 48px;
+	line-height: 46px;
+	padding: 0;
+	border: 2px solid var(--visual-main-color);
+	border-radius: 6px;
+	background-color: #ffc107;
+	color: #000000;
+}
+.visual_main .visual_btn .btn3__apk span.txt {
+	font-size: 20px;
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	top: 2px;
+}
+
+.visual_main .visual_logo {
+	position: absolute;
+	bottom: 40px;
+	right: 80px;
+}
+.visual_main .visual_logo.left {right:auto; left:50px}
+
+.visual_main video,
+.visual_main iframe {	pointer-events: none;	top : 0; 	left : 0;	width : 100%;		z-index : -1; }	
+
+video::-internal-media-controls-download-button {  display:none;    }
+video::-webkit-media-controls-enclosure {  overflow:hidden;    }
+
+video::-webkit-media-controls-panel {display: none !important;opacity: 1 !important;}	
+video + span { position:absolute; top:0px; left:0px; width:100%; height:100%;}		
+.imgcover { position:absolute; top:0px; left:0px; width:100%; height:100%;  background-size:cover; background-repeat:no-repeat; background-position:top center}	
+.visual_main_m  { position:relative;}
+.visual_main_m .visual_wrap {
+	position: absolute;
+	left: 0;
+	bottom: 32px;
+	width: 100%;
+	text-align: center;
+}
+.visual_main_m .visual_bg {
+	width:100%;
+}
+.visual_main_m .txt_wrap {
+	margin-bottom: 20px;
+}
+.visual_main_m .txt_wrap .visual {
+	font-size: 48px;
+	font-weight: 700;
+	color: var(--visual-main-color);
+	line-height: 0.9em;
+}
+.visual_main_m .txt_wrap .visual img {width:100%}
+.visual_main_m .txt_wrap .visual_logo { position:absolute; bottom:80px; left:0; right:0; width:100%; text-align: center}
+.visual_main_m .txt_wrap .visual_logo img {width:80%; display: block; margin:0 auto}
+
+.visual_main_m .visual_btn {
+	margin-bottom: 0;
+}
+.visual_main_m .visual_btn p + p {
+	margin-top: 14px;
+	margin-bottom: 8px;
+}
+.visual_main_m .visual_btn a.btn1 {
+	display:inline-block;
+	vertical-align: middle;
+	box-sizing: border-box;text-align: center;width: 150px;height:44px;line-height: 42px; padding:0;
+}
+.visual_main_m .visual_btn a.btn1__aos {
+	margin-left: 8px;
+	background: url('../img/btn/btn_googleplay_150.png') no-repeat 50% center / 100%;
+}
+.visual_main_m .visual_btn a.btn1__ios {
+	background: url('../img/btn/btn_appstore_150.png') no-repeat 50% center / 100%;
+}
+.visual_main_m .visual_btn a.btn1 span.txt {text-indent: -9999px; color:#333; font-weight: 700; font-size:20px; display: inline-block; vertical-align: middle;    position: relative;    top: 2px;}
+
+.visual_main_m .visual_btn a.btn2 { color: var(--visual-main-color); font-size:20px; text-decoration: underline;}
+.visual_main_m .visual_btn a.btn2.btn2__shop {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+	background-color: var(--visual-main-color);
+	max-width: 100%;
+	width: 306px;
+	height: 36px;
+	border-radius: 3px;
+}
+.visual_main_m .visual_btn a.btn2.btn2__shop .txt {
+	margin-top: 3px;
+	color: #fff;
+}
+.visual_main_m .visual_btn a.btn3 { color:#000000; font-size:20px; }
+.visual_main_m .visual_btn .btn3.btn3__apk {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+	max-width: 100%;
+	width: 306px;
+	height: 36px;
+	border-radius: 3px;
+	background-color: #ffc107;
+}
+.visual_main_m .visual_btn .btn3.btn3__apk .txt {
+	margin-top: 3px;
+}
+
+#pre2 .contains .con_box img[src] {
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+
+@media screen and (max-width:1920px) {
+	.visual_main .visual {font-size: 120px; }
+}
+
+@media screen and (max-width:1420px) {	
+	.visual_main .visual {font-size: 72px;}
+}
+
+@media screen and (max-width:1024px) {
+	.visual_main_m.show_m {display:block!important; font-size:0; margin-top: 60px;}
+	.visual_main_m .txt_wrap .visual_logo { display:none}
+}

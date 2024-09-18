@@ -1,0 +1,388 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Teko', 'Oswald', sans-serif;
+    overflow: ;
+
+    /* NAVBAR KA CSS? */
+}
+
+.nav {
+    width: 1280px;
+    height: 93px;
+    background-color: black;
+    color: white;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+    position: fixed;
+}
+
+.logo {
+    background-image: url(logo.png);
+    background-position: center;
+    background-size: contain;
+    width: 131px;
+    height: 50px;
+    background-repeat: no-repeat;
+
+}
+
+span {
+    color: #9b9494;
+}
+
+span:hover {
+    color: #ffffff;
+}
+
+.nav-a {
+    color: #9b9494;
+    text-transform: uppercase;
+    font-size: 16px;
+    /* letter-spacing: .5px; */
+    font-family: 'Teko', 'Oswald', sans-serif;
+    font-weight: bold;
+}
+
+.nav-a:hover {
+    color: white;
+}
+
+.nav-a:active {
+    color: #f2a900;
+}
+
+.space {
+    color: black;
+}
+
+.i {
+    font-size: 32px;
+}
+
+.i:hover {
+    color: #f2a900;
+}
+
+.download {
+    background-color: #f2a900;
+    height: 70px;
+    width: 111px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-transform: uppercase;
+    margin: 36px -20px 19px 18px;
+    display: flex;
+    font-weight: 700;
+    font-size: 13px;
+
+}
+
+.download:hover {
+    background-color: #c18c0e;
+}
+
+/* item1 ko dekhna................................................ */
+
+.item1 {
+    width: 1200px;
+    height: 700px;
+    background-image: url(img1.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.item1-img {
+    width: 1280px;
+    height: 750px;
+}
+
+.item2 {
+    width: 1280px;
+    height: 156px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f6f6;
+}
+
+.item2 h1 {
+    font-size: 3rem;
+}
+
+.item3 {
+
+    height: 886px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.container {
+    display: block;
+
+}
+
+.container p {
+    margin-left: 20px;
+    padding-right: 20px;
+    min-height: 24px;
+    font-size: 20px;
+    color: #999;
+    white-space: nowrap;
+}
+
+p.para {
+    word-wrap: break-word;
+    line-height: 1.2em;
+    height: 2.4em;
+    margin-top: 5px;
+    font-size: 22px;
+    color: black;
+}
+
+.item3-img {
+    background-image: url(img2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 231px;
+    width: 411px;
+
+}
+
+.img3 {
+    background-image: url(img3.jpg);
+
+}
+
+.img4 {
+    background-image: url(img4.jpg);
+
+}
+
+.img5 {
+    background-image: url(img5.jpg);
+
+}
+
+.img6 {
+    background-image: url(img6.jpg);
+
+}
+
+.img7 {
+    background-image: url(img7.jpg);
+
+}
+
+/* partner............................................./ */
+.part {
+    background-color: #060606;
+    width: 1280px;
+    height: 66px;
+}
+
+.part>p {
+    width: 1280px;
+    height: 66px;
+    font-size: 55px;
+    font-weight: 700;
+    font-family: 'Caprasimo', cursive;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Libre Baskerville', serif;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #fff !important;
+    letter-spacing: 2px;
+}
+
+.partner {
+    background-color: #0e0e0c;
+    width: 1200x;
+    height: 405px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.img8 {
+    background-image: url(img8.jpg);
+
+    border: .5px solid white;
+
+}
+
+.img9 {
+    background-image: url(img9.jpg);
+    border: .5px solid white;
+
+}
+
+.img10 {
+    background-image: url(img10.jpg);
+    border: .5px solid white;
+
+}
+
+.container1 {
+    background-color: rgb(22, 19, 19);
+
+}
+
+.container1 p {
+    margin-left: 10px;
+    padding-right: 10px;
+    min-height: 24px;
+    font-size: 20px;
+    color: #fffdfd;
+    white-space: nowrap;
+}
+
+p.para1 {
+    word-wrap: break-word;
+    line-height: 1.2em;
+    height: 2.4em;
+    margin-top: 5px;
+    font-size: 22px;
+    color: rgb(255, 249, 249);
+}
+
+.bottom {
+    width: 100%;
+    padding: 50px 0;
+    background: #fbfafa url(app_bg.jpg) center no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 450px;
+
+}
+
+.contain {
+    margin: 0px auto;
+    position: relative;
+    width: 1200px;
+
+}
+
+.appicon {
+    width: 1200px;
+    height: 121px;
+}
+
+.logo2 {
+    width: 117px;
+    height: 117px;
+    border-radius: 18px;
+}
+
+p.tit {
+    color: #333;
+    font-weight: bolder;
+    font-size: 28px;
+    line-height: 1.2em;
+    margin: 12px auto;
+    font-family: 'Caprasimo', cursive;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.store {
+    width: 1200px;
+    height: 76px;
+
+
+}
+
+.store>a {
+    display: inline-block;
+    /* background-color: #eca800; */
+    vertical-align: middle;
+    box-sizing: border-box;
+    text-align: center;
+    color: #666;
+    font-size: 20px;
+    width: 250px;
+    height: 76px;
+    border-radius: 24px;
+}
+
+.gar {
+    padding-top: 20px;
+
+}
+
+.applestore {
+    background: #f6f6f6 url(apple.png) no-repeat 50% center/100%;
+    width: 250px;
+    height: 76px;
+
+}
+
+.playstore {
+    background: #f6f6f6 url(google.png) no-repeat 50% center/100%;
+    width: 250px;
+    height: 76px;
+}
+
+.footer {
+    width: 1280px;
+    height: 177px;
+    background-color: #000000;
+}
+
+.footer-text {
+    width: 1280px;
+    height: 77px;
+
+
+}
+
+.kraften {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.krafter>a>img {
+    padding-top: 23px;
+    padding-top: 23px;
+}
+
+span.copy {
+    text-align: center;
+    display: block;
+}
+
+.privacy {
+    text-align: center;
+    display: block;
+}
+
+.www {
+
+    font-size: 15px;
+    letter-spacing: 0;
+    position: relative;
+    display: inline-block;
+}
+
+.www>span {
+    line-height: 16px;
+    display: inline-block;
+    vertical-align: top;
+    letter-spacing: .5px;
+    font-weight: bolder;
+
+}
